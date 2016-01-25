@@ -1,0 +1,54 @@
+.app-header {
+  text-align: center;
+
+  //
+  // banner
+  // 
+  .banner {
+    height: $banner-height;
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+  }
+
+  //
+  // description
+  //
+  .description .avatar {
+    width: $avatar-size;
+    height: $avatar-size;
+    margin-top: -$avatar-size / 2;
+    border-radius: 50%;
+    border: 4px solid $avatar-border-color;
+  }
+
+  .description .title {
+    font-size: $app-title-font-size;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: $app-title-color;
+
+    margin: 0;
+    padding: $gutter;
+  }
+
+  .description .subtitle {
+    margin: 0;
+    font-size: .9rem;
+    // color: #666;
+    color: $app-subtitle-color;
+    padding-bottom: $gutter;
+  }
+
+
+  //
+  // nav
+  //
+  nav {
+    margin-top: $gutter;
+  }
+
+  nav a {
+    color: $anchor-color;
+    padding: 8px 12px;
+  }
+}

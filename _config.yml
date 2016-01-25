@@ -1,0 +1,15 @@
+title: Drake Leung
+subtitle: 见习魔法师
+favicon: /favicon.ico
+avatar: /images/avatar.png
+
+# nav
+nav:
+  github: https://github.com/DrakeLeung
+  twitter: https://twitter.com/DrakeLeung
+  About: /about
+
+node_sass:
+  outputStyle: nested
+  precision: 5
+  sourceComments: false
