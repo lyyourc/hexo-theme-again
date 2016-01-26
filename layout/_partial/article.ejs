@@ -3,11 +3,11 @@
     <a href="<%- url_for(post.path) %>"><%- post.title %></a>
   </h1>
 
-  <div class="article-meta">
+  <section class="article-meta">
     <p class="article-date"><%- date(post.date, 'MMMM DD YYYY') %></p>
-  </div>
+  </section>
 
-  <div class="article-content">
+  <section class="article-content">
     <%- post.content %>
-  </div>
+  </section>
 </article>

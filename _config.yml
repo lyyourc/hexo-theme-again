@@ -1,7 +1,11 @@
+# basic
 title: Drake Leung
 subtitle: 见习魔法师
 favicon: /favicon.ico
 avatar: /images/avatar.png
+
+# disqus
+disqus_shortname: drakeleung
 
 # nav
 nav:
@@ -9,6 +13,7 @@ nav:
   twitter: https://twitter.com/DrakeLeung
   About: /about
 
+# heox-renderre-sass
 node_sass:
   outputStyle: nested
   precision: 5

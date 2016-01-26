@@ -2,12 +2,12 @@ main.post {
   max-width: $main-content-width;
   margin: 0 auto;
 
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  article {
-    flex: 1;
-  }
+  // height: 100%;
+  // display: flex;
+  // flex-direction: column;
+  // article {
+  //   flex: 1;
+  // }
 
   article {
     padding-top: $article-gutter;
@@ -25,6 +25,10 @@ main.post {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: $article-date-color;
+  }
+
+  .article-comment {
+    margin-top: 6 * $gutter;
   }
 
 }
