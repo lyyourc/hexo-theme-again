@@ -1,0 +1,19 @@
+<main class="index">
+  <% page.posts.each(function(post){ %>
+    <article>
+      <h1 class="article-title">
+        <a href="<%- url_for(post.path) %>"><%- post.title %></a>
+      </h1>
+
+      <div class="article-entry">
+        <%- post.foreword %>
+      </div>
+
+      <div class="article-meta">
+        <span class="article-date"><%- date(post.date, 'MMM DD YYYY') %></span>
+      </div>
+    </article>
+  <% }) %>
+
+  <%- partial('../_widget/paginator') %>
+</main>

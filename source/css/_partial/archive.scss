@@ -1,28 +1,28 @@
 main.archive {
-  max-width: $main-content-width;
+  max-width: $archive-main-width;
+  padding: 6 * $gutter $gutter 0 $gutter;
   margin: 0 auto;
 
   article {
-    // border-top: 1px solid $article-border-color;
-    margin-top: $article-gutter;
-  }
-
-  .article-entry {
-    padding: $gutter 0 2*$gutter 0;
+    margin-top: $archive-gutter;
   }
 
   .article-title {
     margin: 0;
-    padding-top: $article-gutter * 2/3;
+    font-size: 1.2rem;
   }
 
-  .article-date {
-    color: $article-date-color;
+  .article-meta {
+    padding-left: 2 * $gutter;
+
+    .article-date {
+      color: $article-date-color;
+    }
   }
 
   .page-nav {
     text-align: center;
-    margin-top: $article-gutter;
+    margin-top: 6 * $gutter;
     font-size: $page-nav-font-size;
 
     .page-number {

@@ -1,11 +1,7 @@
-<article>
-  <h1 class="article-title">
+<article class="grid">
+  <h1 class="article-title grid-item">
     <a href="<%- url_for(post.path) %>"><%- post.title %></a>
   </h1>
-
-  <div class="article-entry">
-    <%- post.foreword %>
-  </div>
 
   <div class="article-meta">
     <span class="article-date"><%- date(post.date, 'MMM DD YYYY') %></span>

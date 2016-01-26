@@ -24,16 +24,17 @@ $app-subtitle-color: #EB298C;
 //
 // archive
 //
-$article-date-color: #aaa;
-$anchor-color: #5badf0;
-$article-gutter: 3 * $gutter;
-
+$archive-main-width: 500px;
+$archive-gutter: 2 * $gutter;
 $page-nav-font-size: 1.25rem;
 
 //
 // article
 //
 $article-line-height: 1.7;
+$article-date-color: #aaa;
+$article-gutter: 3 * $gutter;
+$anchor-color: #5badf0;
 
 //
 // sharing
