@@ -1,1 +1,13 @@
-<%- list_posts() %>
+<article>
+  <h1 class="article-title">
+    <a href="<%- url_for(post.path) %>"><%- post.title %></a>
+  </h1>
+
+  <div class="article-meta">
+    <p class="article-date"><%- date(post.date, 'MMMM DD YYYY') %></p>
+  </div>
+
+  <div class="article-content">
+    <%- post.content %>
+  </div>
+</article>

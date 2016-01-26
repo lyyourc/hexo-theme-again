@@ -22,15 +22,25 @@ $app-subtitle-color: #EB298C;
 
 
 //
-// main(article)
+// archive
 //
-$article-border-color: #ddd;
 $article-date-color: #aaa;
 $anchor-color: #5badf0;
 $article-gutter: 3 * $gutter;
 
 $page-nav-font-size: 1.25rem;
 
+//
+// article
+//
+$article-line-height: 1.7;
+
+//
+// sharing
+//
+$sharing-border-color: #ddd;
+$sharing-avatar-size: 70px;
+$sharing-subtitle-color: #999;
 
 //
 // footer

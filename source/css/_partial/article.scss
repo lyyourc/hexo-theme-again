@@ -1,0 +1,30 @@
+main.post {
+  max-width: $main-content-width;
+  margin: 0 auto;
+
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  article {
+    flex: 1;
+  }
+
+  article {
+    padding-top: $article-gutter;
+    line-height: $article-line-height;
+  }
+
+  .article-title {
+    margin: 0;
+    text-align: center;
+    padding-top: $article-gutter * 2/3;
+  }
+
+  .article-date {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: $article-date-color;
+  }
+
+}

@@ -1,10 +1,14 @@
-<% page.posts.each(function(post){ %>
-  <%- partial('./article/article-foreword', {post: post}) %>
-<% }) %>
+<article>
+  <h1 class="article-title">
+    <a href="<%- url_for(post.path) %>"><%- post.title %></a>
+  </h1>
 
-<nav class="page-nav">
-  <%- paginator({
-    prev_text: '&larr; Prev',
-    next_text: 'Next &rarr;'
-  }) %>
-</nav>
+  <div class="article-content">
+    <%- post.content.substr(0, 200) %>
+    ......
+  </div>
+
+  <div class="article-meta">
+    <span class="article-date"><%- date(post.date, 'MMM DD YYYY') %></span>
+  </div>
+</article>
