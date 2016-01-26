@@ -7,6 +7,10 @@ main.archive {
     margin-top: $article-gutter;
   }
 
+  .article-entry {
+    padding: $gutter 0 2*$gutter 0;
+  }
+
   .article-title {
     margin: 0;
     padding-top: $article-gutter * 2/3;

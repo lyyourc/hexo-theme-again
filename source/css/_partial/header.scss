@@ -3,10 +3,10 @@
 
   //
   // banner
-  // 
+  //
   .banner {
     height: $banner-height;
-    background-image: url(../images/banner.jpg);
+    background-image: url(../images/banner.png);
     background-size: cover;
   }
 
@@ -41,13 +41,16 @@
 
 
   //
-  // nav
+  // social list
   //
-  nav {
+  .social-list {
+    margin: 0;
     margin-top: $gutter;
+    padding: 0;
+    list-style: none;
   }
 
-  nav a {
+  .social-list a {
     color: $anchor-color;
     padding: 8px 12px;
   }

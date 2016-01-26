@@ -3,9 +3,8 @@
     <a href="<%- url_for(post.path) %>"><%- post.title %></a>
   </h1>
 
-  <div class="article-content">
-    <%- post.content.substr(0, 200) %>
-    ......
+  <div class="article-entry">
+    <%- post.foreword %>
   </div>
 
   <div class="article-meta">

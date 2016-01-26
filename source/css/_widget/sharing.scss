@@ -29,6 +29,12 @@
     color: $sharing-subtitle-color;
   }
 
+  .share-btns > p {
+    margin: $gutter;
+    color: $sharing-subtitle-color;
+    font-style: italic;
+    text-transform: capitalize;
+  }
   // .share-btns .twitter-share-button {
   //   margin: $gutter;
   // }
