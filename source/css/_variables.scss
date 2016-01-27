@@ -42,6 +42,7 @@ $anchor-color: #5badf0;
 $sharing-border-color: #ddd;
 $sharing-avatar-size: 70px;
 $sharing-subtitle-color: #999;
+$sharing-statement-color: #EB298C;
 
 //
 // footer
@@ -52,6 +53,7 @@ $app-footer-bg: #abcdef;
 
 //
 //font
+//
 // 没有衬线，在屏幕上更容易识别
 $font-sans: 'Source Han Sans', 'Microsoft YaHei', Helvetica, Arial, sans-serif;
 
@@ -65,6 +67,6 @@ $font-mono: "Source Code Pro", Consolas, Monaco, Menlo, monospace;
 //
 // markdown highlight
 //
-$code-bg-color: #aaa;
+$code-bg-color: rgba(0,0,0,0.07);;
 $quote-border-color: #aaa;
 $quote-color: #aaa;

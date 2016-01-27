@@ -1,8 +1,8 @@
 # basic
-title: Drake Leung
-subtitle: 见习魔法师
-favicon: /favicon.ico
-avatar: /images/avatar.png
+title: 追客
+subtitle: 热爱生活，热爱编程，Web前端见习魔法师
+favicon: favicon.ico
+avatar: images/avatar.png
 
 # disqus
 disqus_shortname: drakeleung
@@ -13,10 +13,11 @@ social:
   twitter: https://twitter.com/DrakeLeung
   weibo: http://weibo.com/cha12chalyc
 
+# nav
 nav:
   home: /
-  archive: /archives
-  about: /about
+  archive: archives
+  about: about
 
 # heox-renderre-sass
 node_sass:

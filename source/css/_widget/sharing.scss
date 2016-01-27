@@ -1,5 +1,5 @@
 .sharing {
-  margin: $gutter * 2 0;
+  margin: $gutter * 6 0;
   padding: $gutter 0;
 
   border-top: 1px solid $sharing-border-color;
@@ -31,7 +31,7 @@
 
   .share-btns > p {
     margin: $gutter;
-    color: $sharing-subtitle-color;
+    color: $sharing-statement-color;
     font-style: italic;
     text-transform: capitalize;
   }

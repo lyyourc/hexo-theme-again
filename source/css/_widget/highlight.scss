@@ -17,7 +17,7 @@ $purple: #cc99cc;
 .code-block {
   background: $background;
   margin: 0;
-  padding: 20px 10px;
+  padding: 20px 10px  ;
   border-style: solid;
   // border-color: #fff;
   border-width: 1px 0;
@@ -36,12 +36,14 @@ $purple: #cc99cc;
     font-family: $font-mono;
   }
 
+  // inline code
   code {
     background: $code-bg-color;
-    padding: 0.1rem 0.3rem;
+    padding: 0 2px;
     border-radius: 2px;
   }
 
+  // code block
   pre {
     @extend .code-block;
     code {
@@ -51,6 +53,7 @@ $purple: #cc99cc;
     }
   }
 
+  // >
   blockquote {
     color: $quote-color;
     margin-left: 0;
@@ -60,6 +63,22 @@ $purple: #cc99cc;
 
     p {
       margin: 0;
+    }
+  }
+
+  // table
+  table {
+    margin: $gutter 0;
+    border-collapse: collapse;
+
+    tr {
+      border-top: 1px solid #ccc;
+      background-color: #fff;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 6px 13px;
     }
   }
 

@@ -1,6 +1,7 @@
 main.index {
   max-width: $main-content-width;
   margin: 0 auto;
+  padding: $gutter;
 
   article {
     // border-top: 1px solid $article-border-color;
@@ -14,6 +15,8 @@ main.index {
   .article-title {
     margin: 0;
     padding-top: $article-gutter * 2/3;
+    text-transform: capitalize;
+    font-size: 1.75rem;
   }
 
   .article-date {
