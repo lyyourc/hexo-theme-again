@@ -1,5 +1,5 @@
 # hexo-theme-again
-shabby~
+[Check it out](http://drakeleung.github.io/blog/)
 
 ## Usage
 1. In the `themes/` directory:

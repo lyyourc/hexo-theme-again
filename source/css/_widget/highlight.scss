@@ -101,6 +101,11 @@ $purple: #cc99cc;
       padding: 0;
     }
 
+    // override the markdown table flavour
+    tr {
+      border: 0;
+    }
+
     figcaption {
       font-size: 0.85em;
       color: $comment;
