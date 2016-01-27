@@ -13,9 +13,9 @@ social:
   twitter: https://twitter.com/DrakeLeung
   weibo: http://weibo.com/cha12chalyc
 
-# nav
+# nav #
 nav:
-  home: /
+  home: .
   archive: archives
   about: about
 
