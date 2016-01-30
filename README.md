@@ -4,7 +4,7 @@
 ## Usage
 1. In the `themes/` directory:
     ```git
-    git clone https://github.com/DrakeLeung/hexo-theme-again.git
+    git clone https://github.com/DrakeLeung/hexo-theme-again.git again
     ```
 
 2. In the project root directory:
@@ -18,7 +18,9 @@
     theme: again
     ```
 
-4. **If failed, just new a issue.**
+4. Run: `hexo server`
+
+5. **If failed, just new a issue.**
 
 ## Screenshot
 *Index*:
