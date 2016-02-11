@@ -23,7 +23,7 @@ $purple: #cc99cc;
   border-width: 1px 0;
   overflow: auto;
   color: $foreground;
-  line-height: $root-font-size * $article-line-height;
+  line-height: $code-block-linehight
 }
 
 .line-numbers {
@@ -121,7 +121,7 @@ $purple: #cc99cc;
       padding-right: 20px;
     }
     .line {
-      height: $root-font-size * $article-line-height;
+      height: $code-block-linehight;
     }
   }
 }
