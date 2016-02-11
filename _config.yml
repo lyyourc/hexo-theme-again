@@ -18,6 +18,7 @@ nav:
   home: .
   archive: archives
   about: about
+  rss: atom.xml
 
 # heox-renderre-sass
 node_sass:
