@@ -5,9 +5,36 @@
   // banner
   //
   .banner {
-    height: $banner-height;
-    background-image: url(../images/banner.png);
+    position: relative;
+    overflow: hidden;
+    z-index: -1024;
+
+    background-color: #f6f6f6;
     background-size: cover;
+    background-repeat: no-repeat;
+
+    // http://daverupert.com/2015/12/intrinsic-placeholders-with-picture
+    .placeholder {
+      padding-bottom: 33.3%;
+    }
+
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      opacity: 0;
+      transition: opacity 2s linear;
+    }
+
+    img.loaded {
+      opacity: 1;
+    }
+
+    .banner-small {
+      filter: blur(50px);
+      -webkit-filter: blur(25px);
+    }
   }
 
   //

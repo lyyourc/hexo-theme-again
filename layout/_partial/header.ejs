@@ -1,5 +1,14 @@
 <header class="app-header">
-  <section class="banner"></section>
+  <section class="banner">
+    <!-- http://daverupert.com/2015/12/intrinsic-placeholders-with-picture/ -->
+    <div class="placeholder"></div>
+    <img
+      class="banner-small"
+      data-src="<%- url_for(theme.banner_large)%>"
+      src="<%- url_for(theme.banner_small) %>"
+      alt="banner"
+    >
+  </section>
 
   <section class="description">
     <img class="avatar" src="<%- url_for(theme.avatar) %>" alt="avatar" />

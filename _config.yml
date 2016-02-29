@@ -1,8 +1,14 @@
 # basic
 title: 追客
-subtitle: 热爱生活，热爱编程，Web前端见习魔法师
+subtitle: You are the JavaScript in my HTML
 favicon: favicon.ico
-avatar: images/avatar.png
+
+# avatar: images/avatar.png
+# banner_small: images/banner-small.png
+# banner_large: images/banner-large.png
+avatar: http://7xrcp8.com1.z0.glb.clouddn.com/avatar.png
+banner_small: http://7xrcp8.com1.z0.glb.clouddn.com/banner-small.png
+banner_large: http://7xrcp8.com1.z0.glb.clouddn.com/banner-large.png
 
 # disqus
 disqus_shortname: drakeleung
