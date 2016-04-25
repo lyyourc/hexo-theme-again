@@ -20,7 +20,7 @@
 
 4. Run: `hexo server`
 
-5. **If failed, just new a issue.**
+5. **If failed, just new an issue :D**
 
 ## Screenshot
 *Index*:
