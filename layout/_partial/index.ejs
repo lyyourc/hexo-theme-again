@@ -6,7 +6,9 @@
       </h1>
 
       <div class="article-entry">
-        <%- post.foreword %>
+        <%- post.excerpt %>
+        <br>
+        <a class="read-more" href="<%- url_for(post.path) %>">Read more...</a>
       </div>
 
       <div class="article-meta">

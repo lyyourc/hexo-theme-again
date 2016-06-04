@@ -1,30 +1,28 @@
 # basic
-title: 追客
-subtitle: You are the JavaScript in my HTML
+title: Juan David Vega 
+subtitle: My life as coder line by line
 favicon: favicon.ico
 
-# avatar: images/avatar.png
-# banner_small: images/banner-small.png
-# banner_large: images/banner-large.png
-avatar: http://7xrcp8.com1.z0.glb.clouddn.com/avatar.png
-banner_small: http://7xrcp8.com1.z0.glb.clouddn.com/banner-small.png
-banner_large: http://7xrcp8.com1.z0.glb.clouddn.com/banner-large.png
+avatar: images/avatar.jpg
+banner_small: images/banner-small.png
+banner_large: images/banner-large.jpg
+#avatar: http://7xrcp8.com1.z0.glb.clouddn.com/avatar.png
+#banner_small: http://7xrcp8.com1.z0.glb.clouddn.com/banner-small.png
+#banner_large: http://7xrcp8.com1.z0.glb.clouddn.com/banner-large.png
 
 # disqus
-disqus_shortname: drakeleung
+disqus_shortname: juandavidvega
 
 # social
 social:
-  github: https://github.com/DrakeLeung
-  twitter: https://twitter.com/DrakeLeung
-  weibo: http://weibo.com/cha12chalyc
+  github: https://github.com/jdvr
+  twitter: https://twitter.com/juandvegarguez
+  twitter_via: juandvegarguez
 
 # nav #
 nav:
   home: .
   archive: archives
-  about: about
-  rss: atom.xml
 
 # heox-renderre-sass
 node_sass:
