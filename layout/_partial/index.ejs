@@ -4,13 +4,9 @@
       <h1 class="article-title">
         <a href="<%- url_for(post.path) %>"><%- post.title %></a>
       </h1>
-
       <div class="article-entry">
-        <%- post.excerpt %>
-        <br>
-        <a class="read-more" href="<%- url_for(post.path) %>">Read more...</a>
+        <%- post.foreword %>
       </div>
-
       <div class="article-meta">
         <span class="article-date"><%- date(post.date, 'MMM DD YYYY') %></span>
       </div>

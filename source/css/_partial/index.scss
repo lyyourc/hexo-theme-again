@@ -12,11 +12,6 @@ main.index {
     padding: $gutter 0 2*$gutter 0;
   }
 
-  .read-more {
-    color: $anchor-color;
-    text-transform: capitalize;
-  }
-
   .article-title {
     margin: 0;
     padding-top: $article-gutter * 2/3;
