@@ -1,5 +1,11 @@
 <nav class="app-nav">
-  <% for (var i in theme.nav){ %>
-    <a href="<%- url_for(theme.nav[i]) %>"><%= i %></a>
+  <% var first = true
+    for (var i in theme.nav){ %>
+      <% if (first) { %>
+        <a class="active" href="<%- url_for(theme.nav[i]) %>"><%= i %></a>
+        <% first = false %>
+      <% } else { %>
+        <a href="<%- url_for(theme.nav[i]) %>"><%= i %></a>
+      <% } %>
   <% } %>
 </nav>
