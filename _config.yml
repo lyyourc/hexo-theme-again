@@ -1,6 +1,6 @@
 # basic
-title: 追客
-subtitle: You are the JavaScript in my HTML
+title: lyyourc 
+subtitle: You Are The JavaScript In My HTML
 favicon: favicon.ico
 
 # avatar: images/avatar.png
@@ -23,7 +23,7 @@ social:
 nav:
   home: .
   archive: archives
-  about: about
+  # about: about
   rss: atom.xml
 
 # heox-renderre-sass

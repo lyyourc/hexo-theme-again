@@ -16,10 +16,9 @@ $purple: #cc99cc;
 
 .code-block {
   background: $background;
-  margin: 0;
-  padding: 20px 10px  ;
+  margin: 1.6rem 0;
+  padding: 3rem 1.8rem;
   border-style: solid;
-  // border-color: #fff;
   border-width: 1px 0;
   overflow: auto;
   color: $foreground;
@@ -39,7 +38,8 @@ $purple: #cc99cc;
   // inline code
   code {
     background: $code-bg-color;
-    padding: 0 2px;
+    color: #EB298C;
+    padding: 2px 3px;
     border-radius: 2px;
   }
 
@@ -56,8 +56,7 @@ $purple: #cc99cc;
   // >
   blockquote {
     color: $quote-color;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 2.5rem 1rem;
     padding: 0 0 0 2 * $gutter;
     border-left: 4px solid $quote-border-color;
 
