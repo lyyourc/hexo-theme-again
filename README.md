@@ -1,5 +1,5 @@
 # hexo-theme-again
-Oh, My Hexo Theme ~
+A dead simple theme which supports emoji 。
 
 
 ## Demo
@@ -39,7 +39,7 @@ hexo server
 ```
 
 ## Tips
-- [Add twemoji](https://github.com/markdown-it/markdown-it-emoji#change-output)
+- Add twitter emoji :sheep::hatched_chick::whale:: [twemoji](https://github.com/markdown-it/markdown-it-emoji#change-output)。
 
 
 ## License
