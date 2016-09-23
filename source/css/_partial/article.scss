@@ -11,13 +11,32 @@ main.post {
   .article-entry {
     margin-top: 5 * $gutter;
     
-    > h1, > h2, > h3, > h4, > h5, > h6 {
-      margin-top: 3rem;
+    > h2, > h3, > h4, > h5, > h6 {
       margin-bottom: 1rem;
     }
+    > h2 { margin-top: 3rem; }
+    > h3 { margin-top: 2rem; }
+    > h4 { margin-top: 1.5rem; }
 
     a {
       color: $anchor-color;
+    }
+
+    /* * markdown it -> anchors in config.yml */
+    a.header-anchor {
+      margin-right: .5rem;
+      display: none;
+    }
+
+    // h2 show anchor symbol
+    > h2 a.header-anchor { display: inline; }
+
+    // h3-h6 show anchor symbol only when hover
+    > h3:hover .header-anchor,
+    > h4:hover .header-anchor,
+    > h5:hover .header-anchor,
+    > h6:hover .header-anchor {
+      display: inline;
     }
   }
 
