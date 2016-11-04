@@ -1,5 +1,5 @@
 # basic
-title: lyyourc 
+title: lyyourc
 subtitle: You Are The JavaScript In My HTML
 favicon: favicon.ico
 
@@ -31,3 +31,6 @@ node_sass:
   outputStyle: nested
   precision: 5
   sourceComments: false
+
+
+google_anlytics: # Put tracking ID here
