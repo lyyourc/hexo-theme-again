@@ -33,4 +33,4 @@ node_sass:
   sourceComments: false
 
 
-google_anlytics: # Put tracking ID here
+google_analytics: # Put tracking ID here
