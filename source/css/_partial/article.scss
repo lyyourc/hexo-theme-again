@@ -38,6 +38,11 @@ main.post {
     > h6:hover .header-anchor {
       display: inline;
     }
+
+    // set picture responsive
+    img {
+      max-width: $main-content-width;
+    }
   }
 
   .article-title {
@@ -58,5 +63,4 @@ main.post {
   .article-comment {
     margin-top: 6 * $gutter;
   }
-
 }
