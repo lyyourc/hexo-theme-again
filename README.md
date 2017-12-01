@@ -32,7 +32,7 @@ theme: again
 ```
 
 
-Preivew:
+Preview:
 
 ```bash
 hexo server
